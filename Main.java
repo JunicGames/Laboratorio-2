@@ -30,7 +30,7 @@ public class Main {
             boolean valido = false;
             while (!valido) {
                 try {
-                    System.out.print("Ingrese tamaño del tablero (par, mayor a 2): ");
+                    System.out.print("Ingrese la cantidad de fichas que desea tener en la partida (par, mayor a 2): ");
                     tamaño = sc.nextInt();
                     new Tablero(tamaño);
                     valido = true;
@@ -67,4 +67,5 @@ public class Main {
         }
     }
 }
+
 
