@@ -32,7 +32,7 @@ public class Main {
                 try {
                     System.out.print("Ingrese tamaño del tablero (par, mayor a 2): ");
                     tamaño = sc.nextInt();
-                    new Tablero(tamaño); // prueba de validación
+                    new Tablero(tamaño);
                     valido = true;
                 } catch (IllegalArgumentException e) {
                     System.out.println("Error: " + e.getMessage());
@@ -67,3 +67,4 @@ public class Main {
         }
     }
 }
+
