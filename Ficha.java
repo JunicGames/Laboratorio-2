@@ -1,17 +1,16 @@
 /**
- * Clase Main
+ * Clase Ficha
  * Universidad del Valle de Guatemala
  * Facultad de ingeniería
  * Programacion orientada a objetos
  * Segundo ciclo
  * Estudiante: Julio Fernando Ortiz Alvarado - 251190
  * Instructor: Ing. Erick Francisco Marroquìn Rodríguez
- * Ejercicio 3: Arreglos dinámicos
- * Fecha de creación: 31/08/2025
- * Fecha de última modificación
- * Descripción: Interfaz de usuario en consola para manejar el sistema del gimnasio.
+ * Laboratorio 2. Arreglos y excepciones
+ * Fecha de creación: 07/09/2025
+ * Fecha de última modificación: 08/09/2025
+ * Descripción: Representa cada ficha del tablero.
  */
-import java.util.*;
 
 class Ficha {
     private int idFicha;
