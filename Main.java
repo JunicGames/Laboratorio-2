@@ -42,7 +42,7 @@ public class Main {
             Partida partida = new Partida(j1, j2, tamaño);
 
             while (!partida.partidaFinalizada()) {
-                System.out.println("\nTurno de: " + partida.getTurnoActual().getNombre());
+                System.out.println("Turno de: " + partida.getTurnoActual().getNombre());
                 partida.mostrarTablero();
 
                 try {
@@ -54,7 +54,7 @@ public class Main {
                 }
             }
 
-            System.out.println("\n=== RESULTADOS FINALES ===");
+            System.out.println("=== RESULTADOS FINALES ===");
             partida.mostrarResultados();
             Jugador ganador = partida.declararGanador();
             if (ganador != null)
@@ -67,5 +67,6 @@ public class Main {
         }
     }
 }
+
 
 
